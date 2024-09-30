@@ -1,0 +1,95 @@
+﻿/*_________________________________GENERAL______________________________________________*/
+* {
+    /*margin: 0px;
+    padding: 0px;*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Playpen Sans", sans-serif;
+    background-color:brown;
+}
+
+.pagina {background-color:aqua;
+         width: 100%;
+         height: auto;
+}
+
+.titulo2 {
+    text-align: center;
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*___________________________PAGINA UNO_________________________________________________*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #c3230f;
+}
+.logo {
+    font-size: 50px;
+    color: white;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+.nav-items a{
+    color: white;
+    display: inline-block;
+    transition: 0.15s ease;
+    margin-left: 20px;
+}
+
+a.signUp, a.register {
+    background: #37850e;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: 0.15s ease;
+}
+/*.primera {
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201208/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg");
+    background-size: cover;
+    height: 630px;*/
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/*______________________________PAGINA DOS_______________________________________________________*/
+
+#div_img_pag2 {
+    width: 50%;
+    float: left;
+    padding: 10%;
+    border: 1px solid red;
+}
+
+#img_pag2 {
+    width: 100%;
+    height: auto;
+
+}
+
+#div_p_pag2 {
+    width: 50%;
+    float: left;
+    padding: 10%;
+    border: 1px solid red;
+}
+
+/*______________________________PAGINA TRES_______________________________________________________*/
+
+/*______________________________PAGINA CUATRO_______________________________________________________*/
+
+
+/*______________________________PAGINA CINCO_______________________________________________________*/
+
+/*______________________________FOOTER_______________________________________________________*/
