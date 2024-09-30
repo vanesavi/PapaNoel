@@ -22,6 +22,17 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.form_title {
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form_input {
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
+
 /*___________________________PAGINA UNO_________________________________________________*/
 
 .navbar {
