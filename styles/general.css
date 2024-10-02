@@ -1,0 +1,38 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Playpen Sans", sans-serif;
+}
+
+.pagina {
+    background-color: none;
+    width: auto;
+    height: auto;
+}
+
+.titulo2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form_title {
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form_input {
+    border-radius: 10px;
+    background-color: #97a391;
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
