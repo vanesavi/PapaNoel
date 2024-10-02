@@ -1,46 +1,43 @@
-﻿/*_________________________________GENERAL______________________________________________*/
+/*_________________________________GENERAL______________________________________________*/
 * {
-    /*margin: 0px;
-    padding: 0px;*/
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
 }
-
-body {
+body{
     font-family: "Playpen Sans", sans-serif;
-    background-color: #bedfaf;
 }
-
 .pagina {
     background-color: none;
     width: 100%;
     height: auto;
 }
-
 .titulo2 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
-
 .form_title {
     color: azure;
     text-shadow: 2px 2px 4px #000000;
 }
-
 .form_input {
     border-radius: 10px;
     background-color: #97a391;
     width: 100%;
 }
-
 h3 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
-
+.mountains-of-christmas-regular {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 /*___________________________PAGINA UNO_________________________________________________*/
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -62,24 +59,56 @@ h3 {
     transition: 0.15s ease;
     margin-left: 20px;
 }
-
-a.signUp, a.register {
+.button {
     background: #37850e;
     border-radius: 20px;
     padding: 5px 20px;
-    transition: 0.15s ease;
 }
 #pagina1 {
-    text-align: center;
     background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201208/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg");
     background-size: cover;
+    background-position: center center;
+    position: relative;
     height: 630px;
 }
-h1 {
-    font-size: 50px;
+.texto {
+    position: absolute;
+    width: 600px;
+    height: 300px; margin: 20% 30%;
+    text-align: center;
+}
+.texto h1 {
+    text-align: center;
+    color: #c3230f;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.texto p {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 18px;
     color: white;
 }
-
+.texto a {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px; 
+    display: inline-block;
+    color: white;
+    background: #37850e;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+@media (max-width:700px) {
+    .texto {
+        width: 100%;
+        height: auto;
+        margin: 30% 0;
+    }
+    .texto h1 {
+        font-size: 60px;
+    }
+}
 /*______________________________PAGINA DOS_______________________________________________________*/
 #pagina2 {
     padding-bottom: 5%;
@@ -371,4 +400,5 @@ h1 {
 
     /*______________________________PAGINA CINCO_______________________________________________________*/
 
-    /*______________________________FOOTER_______________________________________________________*/
+    /*______________________________FOOTER________________________*/
+
