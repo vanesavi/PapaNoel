@@ -10,9 +10,8 @@ body {
 }
 
 .pagina {
-    background-color: none;
-    width: auto;
-    height: auto;
+    width: 100;
+    background-color: #104022;
 }
 
 .titulo2 {

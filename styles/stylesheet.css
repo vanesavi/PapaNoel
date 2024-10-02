@@ -34,6 +34,7 @@ _______________________________GENERAL__________________________________________
     align-items: center;
     padding: 0 20px;
     background: var(--primary-color);
+    background-color: darkred;
     flex-wrap: wrap;
 }
 .logo {
