@@ -1,4 +1,19 @@
-/*_________________________________GENERAL______________________________________________*/
+/*__
+
+
+_______________________________GENERAL______________________________________________*/
+
+
+
+:root {
+    --primary-color: #c3230f;
+    --secondary-color: #37850e;
+    
+
+}
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,7 +25,7 @@ body{
 }
 .pagina {
     background-color: none;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 .titulo2 {
@@ -31,14 +46,22 @@ h3 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
- 
+.mountains-of-christmas-regular {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
 /*___________________________PAGINA UNO_________________________________________________*/
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background: #c3230f;
+    background: var(--primary-color);
+    flex-wrap: wrap;
 }
 .logo {
     font-size: 50px;
@@ -55,9 +78,9 @@ h3 {
     margin-left: 20px;
 }
 .button {
-    background: #37850e;
+    background: var(--secondary-color);
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 5px 20px ;
 }
 #pagina1 {
     background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201208/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg");
@@ -67,14 +90,16 @@ h3 {
     height: 630px;
 }
 .texto {
-    position: absolute;
-    width: 600px;
-    height: 300px; margin: 20% 30%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+    
 }
 .texto h1 {
     text-align: center;
-    color: #c3230f;
+    color: var(--primary-color);
     text-transform: uppercase;
     font-size: 80px;
 }
@@ -90,16 +115,75 @@ h3 {
     margin-top: 20px; 
     display: inline-block;
     color: white;
-    background: #37850e;
+    background: var(--secondary-color);
     border-radius: 20px;
     padding: 5px 20px;
 }
-@media (max-width:700px) {
-    .texto {
+
+/* Hide the checkbox by default */
+.nav-checkbox {
+    display: none;
+  }
+  
+  /* Menu toggle label */
+  .nav-toggle-label {
+    display: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Hide the menu items by default */
+  .nav-items {
+    display: flex;
+  }
+  
+  @media (max-width: 510px) {
+    .nav-items {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    /* When checkbox is checked, show the nav items */
+    .nav-checkbox:checked + .nav-toggle-label + .nav-items {
+      display: flex;
+    }
+  
+    /* Show the menu button on smaller screens */
+    .nav-toggle-label {
+      display: block;
+    }
+  
+    .nav-items a {
+      margin: 10px auto;
+      padding: 10px 0;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      padding: 19px;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+
+  
+@media (max-width:1100px) {
+    /* .texto {
         width: 100%;
         height: auto;
-        margin: 30% 0;
-    }
+   
+    } */
     .texto h1 {
         font-size: 60px;
     }
@@ -108,13 +192,14 @@ h3 {
 #pagina2 {
     padding-bottom: 5%;
     padding-top: 5%;
-    background-color: #37850e;
+    background-color: #2c511b;
+    border-radius: 20px;
 }
 
 #div_pag2 {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -124,7 +209,7 @@ h3 {
     flex-direction: column;
     align_self: center;
     width: 50%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     padding: 10%;
 }
 
@@ -140,7 +225,7 @@ h3 {
     flex-direction: column;
     align-self: center;
     width: 50%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     padding: 8%; 
 }
 
@@ -153,7 +238,7 @@ h3 {
     #div_pag2 {
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         padding-right: 1%;
         padding-left: 1%;
         align-items:safe center
@@ -164,7 +249,7 @@ h3 {
         flex-direction: column;
         align_self: center;
         width: 80%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
     }
 
     #div_p_pag2 {
@@ -172,7 +257,7 @@ h3 {
         flex-direction: column;
         align-self: center;
         width: 80%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         padding: 8%;
     }
 
@@ -182,24 +267,33 @@ h3 {
     }
 }
 /*______________________________PAGINA TRES_______________________________________________________*/
+
+#pagina3 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #2c511b;
+    border-radius: 20px;
+}
+
+
 /*______________________________PAGINA CUATRO_______________________________________________________*/
 #pagina4 {
     padding-bottom: 5%;
     padding-top: 5%;
-    background-color: #37850e;
+    background-color: #2c511b;
     border-radius: 20px;
 }
 
 #div_pag4 {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
 }
 
 #div_form {
     align_self: center;
     width: 65%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
 }
 
 #div_img_pag4 {
@@ -207,7 +301,7 @@ h3 {
     flex-direction: column;
     align-self: center;
     width: 35%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
 }
 
 #form_pag4 {
@@ -221,7 +315,7 @@ h3 {
     flex-direction: row;
     align-self: self-end;
     padding: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 90%;
 }
 
@@ -230,42 +324,42 @@ h3 {
     flex-direction: row;
     align-self: self-end;
     padding: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 90%;
 }
 
 #form1 {
     align-self: center;
     padding: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form2 {
     align-self: center;
     padding: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form3 {
     align-self: center;
     padding: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form4 {
     align-self: center;
     padding: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form5 {
     align-self: self-end;
     padding: 2%;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 90%;
 }
 
@@ -273,7 +367,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-self: self-end;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     width: 90%;
     align-items: center;
 }
@@ -304,25 +398,27 @@ h3 {
     align-self: center;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     #div_pag4 {
         display: flex;
         flex-direction: column;
         width: 100%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
     }
 
     #div_form {
         align-self: safe center;
         width: 80%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
     }
 
     #form12 {
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
@@ -330,40 +426,40 @@ h3 {
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form1 {
         align-self: center;
         padding: 1%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form2 {
         align-self: center;
         padding: 1%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form3 {
         align-self: center;
         padding: 1%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form4 {
         align-self: center;
         padding: 1%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
     #form5 {
         align-self: safe center;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
@@ -371,7 +467,7 @@ h3 {
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         width: 100%;
         align-items: center;
     }
@@ -381,7 +477,7 @@ h3 {
         flex-direction: column;
         align-self: center;
         width: 80%;
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
         padding: 2%;
     }
 
@@ -393,6 +489,18 @@ h3 {
 }
 
     /*______________________________PAGINA CINCO_______________________________________________________*/
+    .cardDivCenter {
+        padding: 20px;
+        align-items: center;
+        
+        
+    
+    }
+    #pagina5{
+        background-color: #2c511b;
+        border-radius: 20px;
 
+
+    }
     /*______________________________FOOTER________________________*/
 
