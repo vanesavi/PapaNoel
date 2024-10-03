@@ -14,7 +14,7 @@
     font-weight: 700;
 }
 
-.navbar {
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,7 @@
     font-size: 50px;
     color: white;
 }
+
 .nav-items {
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@
     transition: 0.15s ease;
     margin-left: 20px;
 }
-.button {
+.button_pag1 {
     background: var(--secondary-color);
     border-radius: 20px;
     padding: 5px 20px ;
@@ -123,7 +124,7 @@
       padding-right: 30px;
     }
   
-    .navbar {
+    #navbar {
       flex-direction: column;
       padding: 19px;
     }
