@@ -10,13 +10,11 @@
 #div_pag4 {
     display: flex;
     flex-direction: row;
-    border: 1px solid var(--primary-color);
 }
 
 #div_form {
     align_self: center;
     width: 65%;
-    border: 1px solid var(--primary-color);
 }
 
 #div_img_pag4 {
@@ -24,7 +22,6 @@
     flex-direction: column;
     align-self: center;
     width: 35%;
-    border: 1px solid var(--primary-color);
 }
 
 #form_pag4 {
@@ -38,7 +35,6 @@
     flex-direction: row;
     align-self: self-end;
     padding: 1%;
-    border: 1px solid var(--primary-color);
     width: 90%;
 }
 
@@ -47,42 +43,36 @@
     flex-direction: row;
     align-self: self-end;
     padding: 1%;
-    border: 1px solid var(--primary-color);
     width: 90%;
 }
 
 #form1 {
     align-self: center;
     padding: 1%;
-    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form2 {
     align-self: center;
     padding: 1%;
-    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form3 {
     align-self: center;
     padding: 1%;
-    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form4 {
     align-self: center;
     padding: 1%;
-    border: 1px solid var(--primary-color);
     width: 70%;
 }
 
 #form5 {
     align-self: self-end;
     padding: 2%;
-    border: 1px solid var(--primary-color);
     width: 90%;
 }
 
@@ -90,7 +80,6 @@
     display: flex;
     flex-direction: column;
     align-self: self-end;
-    border: 1px solid var(--primary-color);
     width: 90%;
     align-items: center;
 }
@@ -137,13 +126,11 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        border: 1px solid var(--primary-color);
     }
 
     #div_form {
         align-self: safe center;
         width: 80%;
-        border: 1px solid var(--primary-color);
     }
 
     #form12 {
@@ -157,41 +144,35 @@
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form1 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form2 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form3 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form4 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form5 {
         align-self: safe center;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
@@ -199,7 +180,6 @@
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid var(--primary-color);
         width: 100%;
         align-items: center;
     }
@@ -209,7 +189,6 @@
         flex-direction: column;
         align-self: center;
         width: 80%;
-        border: 1px solid var(--primary-color);
         padding: 2%;
     }
 
@@ -225,7 +204,6 @@
     #div_form {
         align-self: safe center;
         width: 80%;
-        border: 1px solid var(--primary-color);
         padding-left: 3%;
     }
 
@@ -240,41 +218,35 @@
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form1 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form2 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form3 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form4 {
         align-self: center;
         padding: 1%;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
     #form5 {
         align-self: safe center;
-        border: 1px solid var(--primary-color);
         width: 100%;
     }
 
@@ -282,7 +254,6 @@
         display: flex;
         flex-direction: column;
         align-self: safe center;
-        border: 1px solid var(--primary-color);
         width: 100%;
         align-items: center;
     }

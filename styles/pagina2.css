@@ -10,7 +10,6 @@
 #div_pag2 {
     display: flex;
     flex-direction: row;
-    border: 1px solid var(--primary-color);
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -20,7 +19,6 @@
     flex-direction: column;
     align_self: center;
     width: 50%;
-    border: 1px solid var(--primary-color);
     padding: 10%;
 }
 
@@ -35,7 +33,6 @@
     flex-direction: column;
     align-self: center;
     width: 50%;
-    border: 1px solid var(--primary-color);
     padding: 8%;
 }
 
@@ -48,7 +45,6 @@
     #div_pag2 {
         display: flex;
         flex-direction: column;
-        border: 1px solid var(--primary-color);
         padding-right: 1%;
         padding-left: 1%;
         align-items: safe center
@@ -60,7 +56,6 @@
         align_self: center;
         width: 90%;
         width: 80%;
-        border: 1px solid var(--primary-color);
     }
 
     #div_p_pag2 {
@@ -68,9 +63,7 @@
         flex-direction: column;
         align-self: center;
         width: 90%;
-        border: 1px solid red;
         width: 80%;
-        border: 1px solid var(--primary-color);
         padding: 8%;
     }
 
@@ -90,7 +83,6 @@
     #div_pag2 {
         display: flex;
         flex-direction: column;
-        border: 1px solid var(--primary-color);
         padding-right: 1%;
         padding-left: 1%;
         align-items: safe center
@@ -102,7 +94,6 @@
         align_self: center;
         width: 90%;
         width: 80%;
-        border: 1px solid var(--primary-color);
     }
 
     #div_p_pag2 {
@@ -110,9 +101,7 @@
         flex-direction: column;
         align-self: center;
         width: 90%;
-        border: 1px solid red;
         width: 80%;
-        border: 1px solid var(--primary-color);
         padding: 8%;
     }
 

@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    background: var(--primary-color);
     flex-wrap: wrap;
 }
 .logo {
@@ -14,7 +15,7 @@
     align-items: center;
 }
 .nav-items a{
-    color: white;
+    color: #E6EADB;
     display: inline-block;
     transition: 0.15s ease;
     margin-left: 20px;
@@ -56,11 +57,17 @@
     font-size: 14px;
     margin-top: 20px; 
     display: inline-block;
-    color: white;
+    color: #E6EADB;
     background: var(--secondary-color);
     border-radius: 20px;
     padding: 5px 20px;
 }
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Hide the checkbox by default */
 .nav-checkbox {

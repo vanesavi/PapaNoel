@@ -7,6 +7,14 @@
 
 body {
     font-family: "Playpen Sans", sans-serif;
+    background-color: #E6EADB;
+}
+
+:root {
+    --primary-color: #c3230f;
+    --secondary-color: #37850e;
+    
+
 }
 
 .pagina {
