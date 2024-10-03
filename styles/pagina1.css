@@ -72,7 +72,7 @@
   }
   
   /* Menu toggle label */
-  .nav-toggle-label {
+.nav-toggle-label {
     display: none;
     background-color: var(--primary-color);
     color: white;
@@ -80,7 +80,9 @@
     cursor: pointer;
     font-size: 18px;
     text-align: center;
-  }
+    font-weight: 400;
+    font-size: 28px;
+}
   
   /* Hide the menu items by default */
   .nav-items {
