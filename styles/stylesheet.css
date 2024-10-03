@@ -24,8 +24,6 @@ _______________________________GENERAL__________________________________________
     font-weight: 400;
     font-style: normal;
   }
-  
-
 
 /*___________________________PAGINA UNO_________________________________________________*/
 .navbar {
@@ -57,7 +55,7 @@ _______________________________GENERAL__________________________________________
     padding: 5px 20px ;
 }
 #pagina1 {
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201208/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg");
+    background-image: url("../images/banner.png");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -115,7 +113,11 @@ _______________________________GENERAL__________________________________________
     display: flex;
   }
   
+<<<<<<< Updated upstream
   @media (max-width: 600px) {
+=======
+  @media (max-width: 560px) {
+>>>>>>> Stashed changes
     .nav-items {
       display: none;
       flex-direction: column;
@@ -152,7 +154,7 @@ _______________________________GENERAL__________________________________________
   }
 
   
-@media (max-width:1100px) {
+@media (max-width:1200px) {
     /* .texto {
         width: 100%;
         height: auto;
@@ -163,6 +165,117 @@ _______________________________GENERAL__________________________________________
     }
 }
 
+<<<<<<< Updated upstream
+=======
+#div_pag2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary-color);
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#div_img_pag2 {
+    display: flex;
+    flex-direction: column;
+    align_self: center;
+    width: 50%;
+    border: 1px solid var(--primary-color);
+    padding: 10%;
+}
+
+#img_pag2 {
+    width: 150%;
+    height: auto;
+    align-self: center;
+
+}
+
+#div_p_pag2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+    border: 1px solid var(--primary-color);
+    padding: 8%; 
+}
+
+
+#p_pag2 {
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    #div_pag2 {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--primary-color);
+        padding-right: 1%;
+        padding-left: 1%;
+        align-items:safe center
+    }
+
+    #div_img_pag2 {
+        display: flex;
+        flex-direction: column;
+        align_self: center;
+        width: 80%;
+        border: 1px solid var(--primary-color);
+    }
+
+    #div_p_pag2 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 80%;
+        border: 1px solid var(--primary-color);
+        padding: 8%;
+    }
+
+    #p_pag2 {
+        color: white;
+        text-align: justify;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: initial;
+    text-decoration: inherit;
+}
+.row{
+    margin: auto
+}
+
+.gameButtons{
+    background-color:var(--primary-color);
+    border-radius:5px;
+    text-align: center;
+    border:1px solid var(--primary-color);
+    padding: 10px;
+    margin: 5px auto;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+          
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.pageSpacing{
+margin-top:30px;
+margin-left:10px;
+margin-right:10px;
+}
+>>>>>>> Stashed changes
 /*______________________________PAGINA TRES_______________________________________________________*/
 #pagina3 {
     padding-bottom: 5%;
