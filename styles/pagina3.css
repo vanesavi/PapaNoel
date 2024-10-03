@@ -7,3 +7,64 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#div_cartas {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+#fila1_cartas {
+    display: flex;
+    flex-direction: row;
+}
+
+#fila2_cartas {
+    display: flex;
+    flex-direction: row;
+}
+
+.carta {
+    width: 33%;
+    border-radius: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.carta:hover {
+    background-color: azure;
+
+}
+
+.texto_carta {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px){
+    #fila1_cartas {
+        flex-direction: column;
+    }
+
+    #fila2_cartas {
+        flex-direction: column;
+    }
+    .carta {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #fila1_cartas {
+        flex-direction: column;
+    }
+
+    #fila2_cartas {
+        flex-direction: column;
+    }
+
+    .carta {
+        width: 90%;
+    }
+}

@@ -20,17 +20,6 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.form_title {
-    color: azure;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.form_input {
-    border-radius: 10px;
-    background-color: #97a391;
-    width: 100%;
-}
-
 h3 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -46,26 +35,3 @@ a {
         text-decoration: inherit;
     }
 
-.row {
-    margin: auto
-}
-
-.gameButtons {
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid var(--primary-color);
-    padding: 10px;
-    margin: 5px auto;
-    width: 70%;
-    height: 60px;
-    border-radius: 10px;
-}
-
-.button-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}

@@ -121,6 +121,17 @@
     align-self: center;
 }
 
+.form_title {
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form_input {
+    border-radius: 10px;
+    background-color: #97a391;
+    width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     #div_pag4 {
         display: flex;

@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en">
+<html lang="es-es">
 <head>
     <title>Papa Noel</title>
 
@@ -30,9 +30,9 @@
 <body>
     <header>
         <nav class="navbar">
-            <a class="logo">logo</a>
+            <a href="#" class="logo">logo</a>
             <input type="checkbox" id="nav-toggle" class="nav-checkbox">
-            <label for="nav-toggle" class="nav-toggle-label">Menu</label>
+            <label for="nav-toggle" class="nav-toggle-label" style="font-weight: 400; font-size: 28px;">Menu</label>
             <div class="nav-items" id="nav-items">
                 <a href="#pagina1">Home</a>
                 <a href="#pagina2">Papá Noel</a>
@@ -46,10 +46,10 @@
 
 
     <div class="pagina " id="pagina1">
-        <div class="texto ">
-            <h1 id="mountains-of-christmas-regular">Sigue a Papá Noel</h1>
-            <p>85 days 3 hours 2 minutes 27 seconds</p> <!--cute design for numbers-->
-            <a href="#">Empezar</a> <!--change design-->
+        <div class="texto">
+            <h1 class="mountains-of-christmas-regular">Sigue a Papá Noel</h1>
+            <p>85 days 3 hours 2 minutes 27 seconds</p>
+            <a href="#">Empezar</a>
         </div>
     </div>
 
@@ -75,74 +75,56 @@
     </div>
 
     <div class="pagina" id="pagina3">
-        <div class="row">
-            <h2 class="titulo2">Las Cartas</h2>
-
-            <div class="col-lg cardDivCenter">
-
-                <div class="card " id="centerItem">
-                    <img src="images/Kid1.png" class="card-img-top" alt="Imagen Annie">
-                    <div class="card-body">
-
-                        <h5 class="card-title cardSubheadings">Annie (Madrid, Spain)</h5>
-                        <p class="card-text">Hi Santa, This year was fun! I learned how to ride a skateboard and helped my grandma with her garden. For Christmas, I would like a new skateboard with cool designs. I hope you enjoy the cookies I will leave for you and the reindeer. Thank you</p>
-
+        <h2 class="titulo2">Las Cartas</h2>
+        <div id="div_cartas">
+            <div id="fila1_cartas">
+                <div id="carta1" class="carta">
+                    <img src="images/Kid1.png" alt="Imagen Annie">
+                    <div class="texto_carta">
+                        <h5>Annie (Madrid, Spain)</h5>
+                        <p class="texto_carta">Hi Santa, This year was fun! I learned how to ride a skateboard and helped my grandma with her garden. For Christmas, I would like a new skateboard with cool designs. I hope you enjoy the cookies I will leave for you and the reindeer. Thank you</p>
                     </div>
                 </div>
 
-            </div>
-
-            <div class="col-lg cardDivCenter">
-
-                <div class="card " id="centerItem">
-                    <img src="images/Kid2.jpg" class="card-img-top" alt="Imagen Surya">
-                    <div class="card-body">
-
-                        <h5 class="card-title cardSubheadings">Surya (London, UK)</h5>
-                        <p class="card-text">Hi Santa Claus, I’m excited for Christmas! I’ve been helping my parents with chores and taking care of my pet hamster. I would like a new art set with paints and brushes for Christmas. I hope you and the reindeer have a safe trip!</p>
-
+                <div id="carta2" class="carta">
+                    <img src="images/Kid2.jpg" alt="Imagen Surya">
+                    <div class="texto_carta">
+                        <h5>Surya (London, UK)</h5>
+                        <p class="texto_carta">Hi Santa Claus, I’m excited for Christmas! I’ve been helping my parents with chores and taking care of my pet hamster. I would like a new art set with paints and brushes for Christmas. I hope you and the reindeer have a safe trip!</p>
                     </div>
                 </div>
-            </div>
 
-
-            <div class="col-lg cardDivCenter">
-                <div class="card " id="centerItem">
-                    <img src="images/Kid3.png" class="card-img-top" alt="Imagen Daniel">
-                    <div class="card-body">
-                        <h5 class="card-title cardSubheadings">Daniel (Dallas,TX)</h5>
-                        <p class="card-text">Dear Santa, I have been trying my best to be good this year. I helped my little sister with her homework and cleaned the dishes. I really want a remote-control car and maybe a new soccer ball. I hope you and your elves are doing great! Merry Christmas</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg cardDivCenter">
-                <div class="card " id="centerItem">
-                    <img src="images/Kid4.png" class="card-img-top" alt="Imagen Hamza">
-                    <div class="card-body">
-                        <h5 class="card-title cardSubheadings">Hamza (Amsterdam, Holland)</h5>
-                        <p class="card-text">Dear Santa Claus, How are you and Mr. Claus? I’m excited for Christmas! This year, I made a lot of new friends and helped my dad in the garden. I would love to get a dollhouse and maybe some new markers for coloring!</p>
+                <div id="carta3" class="carta">
+                    <img src="images/Kid3.png" alt="Imagen Daniel">
+                    <div class="texto_carta">
+                        <h5>Daniel (Dallas,TX)</h5>
+                        <p class="texto_carta">Dear Santa, I have been trying my best to be good this year. I helped my little sister with her homework and cleaned the dishes. I really want a remote-control car and maybe a new soccer ball. I hope you and your elves are doing great! Merry Christmas</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg cardDivCenter">
-                <div class="card " id="centerItem">
-                    <img src="images/Kid5.png" class="card-img-top" alt="Imagen Dev">
-                    <div class="card-body">
-                        <h5 class="card-title cardSubheadings">Dev (London, UK)</h5>
-                        <p class="card-text">Hi Santa, I hope you and your reindeer are doing well. This year, I worked really hard in school, especially in math. For Christmas, I would love a new bicycle because my old one is too small now. I also hope you can bring a toy for my little brother. </p>
+            <div id="fila2_cartas">
+                <div id="carta4" class="carta">
+                    <img src="images/Kid4.png" alt="Imagen Hamza">
+                    <div class="texto_carta">
+                        <h5>Hamza (Amsterdam, Holland)</h5>
+                        <p class="texto_carta">Dear Santa Claus, How are you and Mr. Claus? I’m excited for Christmas! This year, I made a lot of new friends and helped my dad in the garden. I would love to get a dollhouse and maybe some new markers for coloring!</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg cardDivCenter">
-                <div class="card " id="centerItem">
+
+                <div id="carta5" class="carta">
+                    <img src="images/Kid5.png" alt="Imagen Dev">
+                    <div class="texto_carta">
+                        <h5>Dev (London, UK)</h5>
+                        <p class="texto_carta">Hi Santa Claus, I hope you and your reindeer are doing well. This year, I worked really hard in school, especially in math and history. For Christmas, I would love a new bicycle because my old one is too small now. I also hope you can bring a toy for my little brother. </p>
+                    </div>
+                </div>
+
+                <div id="carta6" class="carta">
                     <img src="images/Kid6.png" class="card-img-top" alt="Imagen Omar">
-                    <div class="card-body">
-                        <h5 class="card-title cardSubheadings">Omar (Frankfurt, Germany)</h5>
-                        <p class="card-text">Dear Santa, I have been very good this year! I helped my mom bake cookies, and I cleaned my room every week. For Christmas, I would love to get a new LEGO set and maybe a book about dinosaurs. Thank you, Santa! I will leave cookies and milk for you!</p>
+                    <div>
+                        <h5>Omar (Frankfurt, Germany)</h5>
+                        <p class="texto_carta">Dear Santa Claus, I have been very good this year! I helped my mom bake delicious cookies, and I cleaned my room every week. For Christmas, I would love to get a new LEGO set and maybe a book about dinosaurs. Thank you, Santa! I will leave cookies and milk for you!</p>
                     </div>
                 </div>
             </div>
@@ -191,31 +173,21 @@
     </div>
 
     <div class="pagina" id="pagina5">
-
-        <h2 class="titulo2" style="padding-top: 30px;">¡Juega!</h2>
-
-        <div class="row no-gutters cardDivCenter">
-
-            <div class="col-lg">
-
-                <div class="row " style="display: flex;">
-                    <!-- ELIMINAR STYLE Y meter center CSS -->
-                    <button class="gameButtons centerItem">Juega 1</button>
+        <h2 class="titulo2">¡Juega!</h2>
+        <div id="div_juegos">
+            <div id="div_botones">
+                <div class="div_boton_juego">
+                    <button class="gameButtons">Juega 1</button>
                 </div>
-                <div class="row">
+                <div class="div_boton_juego">
                     <button class="gameButtons">Juega 2</button>
-
                 </div>
-
-                <div class="row">
+                <div class="div_boton_juego">
                     <button class="gameButtons">Juega 3</button>
-
                 </div>
-
             </div>
-            <div class="col-12  col-md-8" style="margin: auto;">
-                <!-- ELIMINAR STYLE Y meter center CSS -->
-                <img src="images/GamePic.png" class="img-fluid" style="border-radius: 20px;" alt="">
+            <div id="div_imagen_pag5">
+                <img src="images/GamePic.png" alt="Imagen juego">
             </div>
         </div>
     </div>

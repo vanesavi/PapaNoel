@@ -1,33 +1,14 @@
-#pagina1 {
-    background-image: url("../images/banner.png");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    height: 630px;
-}
-
-#mountains-of-christmas-regular {
-    font-family: "Mountains of Christmas", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-}
-
-#navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background: var(--primary-color);
-    background-color: darkred;
     flex-wrap: wrap;
 }
 .logo {
     font-size: 50px;
     color: white;
 }
-
 .nav-items {
     display: flex;
     align-items: center;
@@ -38,12 +19,18 @@
     transition: 0.15s ease;
     margin-left: 20px;
 }
-.button_pag1 {
+.button {
     background: var(--secondary-color);
     border-radius: 20px;
     padding: 5px 20px ;
 }
-
+#pagina1 {
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 630px;
+}
 .texto {
     display: flex;
     flex-direction: column;
@@ -81,7 +68,7 @@
   }
   
   /* Menu toggle label */
-.nav-toggle-label {
+  .nav-toggle-label {
     display: none;
     background-color: var(--primary-color);
     color: white;
@@ -89,16 +76,14 @@
     cursor: pointer;
     font-size: 18px;
     text-align: center;
-    font-weight: 400;
-    font-size: 28px;
-}
+  }
   
   /* Hide the menu items by default */
   .nav-items {
     display: flex;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 560px) {
     .nav-items {
       display: none;
       flex-direction: column;
@@ -124,7 +109,7 @@
       padding-right: 30px;
     }
   
-    #navbar {
+    .navbar {
       flex-direction: column;
       padding: 19px;
     }
@@ -145,5 +130,3 @@
         font-size: 60px;
     }
 }
-
-/
