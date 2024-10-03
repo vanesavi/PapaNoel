@@ -13,9 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
     <!-- IMPORT LOCAL CSS FILE -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/trainingsection.css">
@@ -31,17 +29,17 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav id="navbar">
             <a class="logo">logo</a>
             <input type="checkbox" id="nav-toggle" class="nav-checkbox">
             <label for="nav-toggle" class="nav-toggle-label">Menu</label>
-            <div class="nav-items" id="nav-items">
+            <div class="nav-items">
                 <a href="#pagina1">Home</a>
                 <a href="#pagina2">Papá Noel</a>
                 <a href="#pagina3">Las Cartas</a>
                 <a href="#pagina4">Envia tu Carta</a>
-                <a href="#" class="button">Iniciar Sesion</a>
-                <a href="#" class="button">Registrarse</a>
+                <a href="#" class="button_pag1">Iniciar Sesion</a>
+                <a href="#" class="button_pag1">Registrarse</a>
             </div>
         </nav>
     </header>
@@ -50,8 +48,8 @@
     <div class="pagina " id="pagina1">
         <div class="texto ">
             <h1 id="mountains-of-christmas-regular">Sigue a Papá Noel</h1>
-            <p>85 days 3 hours 2 minutes 27 seconds</p> <!--cute design for numbers-->
-            <a href="#">Empezar</a> <!--change design-->
+            <p>85 days 3 hours 2 minutes 27 seconds</p>
+            <a href="#">Empezar</a>
         </div>
     </div>
 
@@ -81,28 +79,21 @@
             <h2 class="titulo2">Las Cartas</h2>
 
             <div class="col-lg cardDivCenter">
-
                 <div class="card ">
                     <img src="images/Kid1.png" class="card-img-top" alt="Imagen Annie">
                     <div class="card-body">
-
                         <h5 class="card-title cardSubheadings">Annie (Madrid, Spain)</h5>
                         <p class="card-text">Hi Santa, This year was fun! I learned how to ride a skateboard and helped my grandma with her garden. For Christmas, I would like a new skateboard with cool designs. I hope you enjoy the cookies I will leave for you and the reindeer. Thank you</p>
-
                     </div>
                 </div>
-
             </div>
 
             <div class="col-lg cardDivCenter">
-
                 <div class="card ">
                     <img src="images/Kid2.jpg" class="card-img-top" alt="Imagen Surya">
                     <div class="card-body">
-
                         <h5 class="card-title cardSubheadings">Surya (London, UK)</h5>
                         <p class="card-text">Hi Santa Claus, I’m excited for Christmas! I’ve been helping my parents with chores and taking care of my pet hamster. I would like a new art set with paints and brushes for Christmas. I hope you and the reindeer have a safe trip!</p>
-
                     </div>
                 </div>
             </div>
@@ -193,27 +184,19 @@
     </div>
 
     <div class="pagina" id="pagina5">
-
         <h2 class="titulo2" style="padding-top: 30px;">¡Juega!</h2>
-
         <div class="row no-gutters cardDivCenter">
-
             <div class="col-lg">
-
                 <div class="row " style="display: flex;">
                     <!-- ELIMINAR STYLE Y meter center CSS -->
                     <button class="gameButtons centerItem">Juega 1</button>
                 </div>
                 <div class="row">
                     <button class="gameButtons">Juega 2</button>
-
                 </div>
-
                 <div class="row">
                     <button class="gameButtons">Juega 3</button>
-
                 </div>
-
             </div>
             <div class="col-12  col-md-8" style="margin: auto;">
                 <!-- ELIMINAR STYLE Y meter center CSS -->
