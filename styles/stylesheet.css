@@ -1,23 +1,4 @@
-<<<<<<< HEAD
 /*__________________________________________GENERAL__________________________________________________________*/
-=======
-/*__
-
-
-_______________________________GENERAL______________________________________________*/
-
-
-
-:root {
-    --primary-color: #c3230f;
-    --secondary-color: #37850e;
-    
-
-}
-
-
-
->>>>>>> 6c97a10c5a357f898210129cde23965182d70216
 
 .mountains-of-christmas-regular {
     font-family: "Mountains of Christmas", serif;
@@ -113,11 +94,7 @@ _______________________________GENERAL__________________________________________
     display: flex;
   }
   
-<<<<<<< Updated upstream
   @media (max-width: 600px) {
-=======
-  @media (max-width: 560px) {
->>>>>>> Stashed changes
     .nav-items {
       display: none;
       flex-direction: column;
@@ -165,117 +142,6 @@ _______________________________GENERAL__________________________________________
     }
 }
 
-<<<<<<< Updated upstream
-=======
-#div_pag2 {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid var(--primary-color);
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-#div_img_pag2 {
-    display: flex;
-    flex-direction: column;
-    align_self: center;
-    width: 50%;
-    border: 1px solid var(--primary-color);
-    padding: 10%;
-}
-
-#img_pag2 {
-    width: 150%;
-    height: auto;
-    align-self: center;
-
-}
-
-#div_p_pag2 {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 50%;
-    border: 1px solid var(--primary-color);
-    padding: 8%; 
-}
-
-
-#p_pag2 {
-    color: white;
-}
-
-@media only screen and (max-width: 600px){
-    #div_pag2 {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid var(--primary-color);
-        padding-right: 1%;
-        padding-left: 1%;
-        align-items:safe center
-    }
-
-    #div_img_pag2 {
-        display: flex;
-        flex-direction: column;
-        align_self: center;
-        width: 80%;
-        border: 1px solid var(--primary-color);
-    }
-
-    #div_p_pag2 {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        width: 80%;
-        border: 1px solid var(--primary-color);
-        padding: 8%;
-    }
-
-    #p_pag2 {
-        color: white;
-        text-align: justify;
-    }
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-a:hover {
-    color: initial;
-    text-decoration: inherit;
-}
-.row{
-    margin: auto
-}
-
-.gameButtons{
-    background-color:var(--primary-color);
-    border-radius:5px;
-    text-align: center;
-    border:1px solid var(--primary-color);
-    padding: 10px;
-    margin: 5px auto;
-    width: 70%;
-    height: 60px;
-    border-radius: 10px;
-          
-}
-.button-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.pageSpacing{
-margin-top:30px;
-margin-left:10px;
-margin-right:10px;
-}
->>>>>>> Stashed changes
 /*______________________________PAGINA TRES_______________________________________________________*/
 #pagina3 {
     padding-bottom: 5%;
