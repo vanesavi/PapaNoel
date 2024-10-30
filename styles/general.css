@@ -43,3 +43,104 @@ a {
         text-decoration: inherit;
     }
 
+/*//////////////////////////*/
+#loginModal form, #registerModal form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+#loginModal label, #registerModal label {
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+#loginModal input, #registerModal input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#loginModal button[type="submit"], #registerModal button[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#loginModal button[type="button"], #registerModal button[type="button"] {
+    background-color: var(--secondary-color);
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: var(--primary-color);
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close-button {
+    color: var(--secondary-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.letter {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #E6EADB;
+    border-radius: 5px;
+    cursor: move;
+}
+
+.letter h5 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.letter p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.letter button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+
+

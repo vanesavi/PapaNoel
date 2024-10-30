@@ -38,11 +38,110 @@
                 <a href="#pagina2">Papá Noel</a>
                 <a href="#pagina3">Las Cartas</a>
                 <a href="#pagina4">Envia tu Carta</a>
-                <a href="#" class="button">Iniciar Sesion</a>
+                <a href="#" class="button">Iniciar Sesión</a>
                 <a href="#" class="button">Registrarse</a>
             </div>
         </nav>
+
+        <!-- Registration-->
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('registerModal')">&times;</span>
+        <h2>Registrarse</h2>
+        <form id="registrationForm" onsubmit="handleRegistration(event)">
+            <label>Nombre de Usuario*</label>
+            <input type="text" id="username" required minlength="3" />
+
+            <label>Contraseña*</label>
+            <input type="password" id="password" required minlength="12" />
+
+            <label>Confirmar contraseña*</label>
+            <input type="password" id="confirmPassword" required />
+
+            <label>Correo electrónico*</label>
+            <input type="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+
+            <label>Ciudad*</label>
+            <input type="text" id="city" required minlength="3" />
+
+            <label>País*</label>
+            <input type="text" id="country" required minlength="3" />
+
+            <label>Género</label>
+            <select id="gender">
+                <option value="Male">Masculino</option>
+                <option value="Female">Femenino</option>
+                <option value="Other">Otro</option>
+                <option value="Prefer not to say">Prefiero no decirlo</option>
+            </select>
+
+            <label>¿Cuántos hijos / hijas tienes?</label>
+            <input type="number" id="children" min="0" onchange="addChildFields(this.value)" />
+
+            <div id="childrenFields"></div>
+
+            <button type="submit">Acceptar</button>
+            <button type="button" onclick="clearForm()">Borrar</button>
+            <button type="button" onclick="confirmCancel()">Cancelar</button>
+        </form>
+    </div>
+</div>
+
+
+<!-- Login -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('loginModal')">&times;</span>
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm" onsubmit="handleLogin(event)">
+            <label>Nombre de Usuario*</label>
+            <input type="text" id="loginUsername" required />
+
+            <label>Contraseña*</label>
+            <input type="password" id="loginPassword" required />
+
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="closeModal('loginModal')">Cancelar</button>
+        </form>
+    </div>
+</div>
+
+
+<!-- Perfil de usuario -->
+<div id="profileModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('profileModal')">&times;</span>
+        <h2>Mi Perfil</h2>
+        <form id="profileForm" onsubmit="saveProfile(event)">
+            <label>Nombre de Usuario:</label>
+            <input type="text" id="profileUsername" disabled />
+
+            <label>Correo electrónico:</label>
+            <input type="email" id="profileEmail" />
+
+            <label>Ciudad:</label>
+            <input type="text" id="profileCity" />
+
+            <label>Pais:</label>
+            <input type="text" id="profileCountry" />
+
+            <button type="submit">Guardar Cambios</button>
+        </form>
+    </div>
+</div>
+
+
     </header>
+
+
+    <!-- Letras -->
+<div id="lettersModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('lettersModal')">&times;</span>
+        <h2>Cartas:</h2>
+        <div id="lettersContainer"></div>
+    </div>
+</div>
 
 
     <div class="pagina " id="pagina1">
@@ -123,7 +222,7 @@
                 <div id="carta6" class="carta">
                     <img src="images/Kid6.png" class="card-img-top" alt="Imagen Omar">
                     <div>
-                        <h5>Omar (Frankfurt, Alemania)</h5>
+                        <h5>Omar (Frankfurt, Germany)</h5>
                         <p class="texto_carta">Querido Santa, ¡he sido muy bueno este año! Ayudé a mi mamá a hornear galletas y limpié mi habitación cada semana. Para Navidad, me encantaría recibir un nuevo set de LEGO y tal vez un libro sobre dinosaurios. ¡Gracias, Santa! ¡Dejaré galletas y leche para ti!</p>
                     </div>
                 </div>
@@ -131,7 +230,7 @@
         </div>
     </div>
 
-
+    <div id="sendLetterSection">
     <div class="pagina" id="pagina4">
         <h2 class="titulo2">Envía tu carta</h2>
         <div id="div_pag4">
@@ -171,6 +270,7 @@
             </div>
         </div>
     </div>
+</div>
 
     <div class="pagina" id="pagina5">
         <h2 class="titulo2">¡Juega!</h2>
